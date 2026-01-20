@@ -14,3 +14,53 @@
     --bs-btn-disabled-border-color: #4f3d33;
     --bs-gradient: none;
 }
+
+.card {
+    max-width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #4f3d33;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.first-line {
+   border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+   color: white;
+   text-decoration: none;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line {
+        text-align: center;
+    }
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+
+
+.third-line {
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .third-line {
+        display: block;
+        padding-top: 1rem;
+    }
+    
+}
+@media screen and (max-width:48rem) {
+    .container.mb-5 { text-align: center; }
+    .container.mb-5 .card { margin-left: auto; margin-right: auto; }
+}
